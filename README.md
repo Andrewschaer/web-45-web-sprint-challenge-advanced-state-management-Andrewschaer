@@ -21,11 +21,11 @@ In this challenge, you are to build a Smurfs village database utilizing Redux as
 ## Instructions
 
 ### Task 1: Transfer Repo
-* Clone this repository.
-* Implement the project on your newly created <firstName-lastName> branch, committing changes regularly.
-* Push commits: git push origin <firstName-lastName>.
-* RUN npm install to install your dependencies.
-* RUN npm start to start your application.
+[X] Clone this repository.
+[X] Implement the project on your newly created <firstName-lastName> branch, committing changes regularly.
+[X] Push commits: git push origin <firstName-lastName>.
+[X] RUN npm install to install your dependencies.
+[X] RUN npm start to start your application.
  
 ### Task 2: Project Requirements
  Your finished project must include all of the following requirements. **Unlike other projects, the local server used here can not be accessed through the browser. It is started automatically and without the need for starting a server.js file. Feel free to ignore any messages related to MSW or mock service workers. For this and the rest of your sprint challenges, test the functioning of the server directly through your axios calls.**
