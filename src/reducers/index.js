@@ -24,7 +24,7 @@ const reducer = (state = initialState, action)=>{
         case(FETCH_FAIL):
             return({
                 ...state,
-                smurfData: action.payload,
+                smurfData: [{name: (action.payload.message+': Please Try Loading Page Again'), fullErrorMessage: action.payload, id: Date.now()}],
                 isFetching: false
             });
         case(ADD_SMURF):

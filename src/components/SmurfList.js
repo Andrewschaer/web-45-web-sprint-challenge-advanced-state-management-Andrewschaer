@@ -21,7 +21,6 @@ const mapStateToProps = state => {
     return {
         smurfData: state.smurfData,
         isFetching: state.isFetching,
-        errorMessage: state.errorMessage
     };
 }
 
