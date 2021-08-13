@@ -13,7 +13,7 @@ const reducer = (state = initialState, action)=>{
             return({
                 ...state,
                 isFetching: true,
-                errorMessage: ''
+                // errorMessage: ''
             });
         case(FETCH_SUCCESS):
             return({
