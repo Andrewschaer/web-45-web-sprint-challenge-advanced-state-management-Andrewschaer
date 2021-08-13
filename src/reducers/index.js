@@ -13,7 +13,6 @@ const reducer = (state = initialState, action)=>{
             return({
                 ...state,
                 isFetching: true,
-                // errorMessage: ''
             });
         case(FETCH_SUCCESS):
             return({
@@ -22,6 +21,7 @@ const reducer = (state = initialState, action)=>{
                 isFetching: false 
             });
         case(FETCH_FAIL):
+            // Explanation for what is passed to smurfData below: In order to show the user a fetch fail occurred, the err received from the fetch fail is passed into an object, with the error message (action.payload.message) being passed as a value for a 'name' key.  This inclusion of the error message in a 'name' key allows the Smurf component (which renders with a smurf.name as the title of the card) to show this fetch error message as the title of a Smurf card with an indicator to try loading the page again when a fetch error occurs
             return({
                 ...state,
                 smurfData: [{name: (action.payload.message+': Please Try Loading Page Again'), fullErrorMessage: action.payload, id: Date.now()}],

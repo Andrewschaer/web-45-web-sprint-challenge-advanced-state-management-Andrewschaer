@@ -104,8 +104,8 @@ In this challenge, you are to build a Smurfs village database utilizing Redux as
 
 ##### GET '/smurfs'
 
-- [ ] Retrieve an array all the Smurfs in the Smurf DB by writing a `GET` to the endpoint `http://localhost:3333/smurfs`.
-- [ ] Double check that your response from the server is an array of smurfs.
+- [X] Retrieve an array all the Smurfs in the Smurf DB by writing a `GET` to the endpoint `http://localhost:3333/smurfs`.
+- [X] Double check that your response from the server is an array of smurfs.
 
 ```js
 [
@@ -146,10 +146,10 @@ Example of object created in Smurf DB:
  
 ## Submission format
 
-* [ ] Submit via Codegrade by commiting and pushing any new changes.
-* [ ] Check codegrade for automated feedback.
-* [ ] Check codegrade on Monday following the Sprint Challenge for reviewer feedback. For more information on how to access and read your feedback, check [here](https://www.notion.so/lambdaschool/How-to-View-Feedback-in-CodeGrade-c5147cee220c4044a25de28bcb6bb54a)
-* [ ] Any changes pushed to your <firstName-lastName> branch will resubmited to codegrade if pushed before the sprint challenge deadline. Changes after the deadline will not be reviewed.
+* [X] Submit via Codegrade by commiting and pushing any new changes.
+* [X] Check codegrade for automated feedback.
+* [X] Check codegrade on Monday following the Sprint Challenge for reviewer feedback. For more information on how to access and read your feedback, check [here](https://www.notion.so/lambdaschool/How-to-View-Feedback-in-CodeGrade-c5147cee220c4044a25de28bcb6bb54a)
+* [X] Any changes pushed to your <firstName-lastName> branch will resubmited to codegrade if pushed before the sprint challenge deadline. Changes after the deadline will not be reviewed.
 ## Interview Questions
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers to the questions within `interview_answers.md` file. These will not be counted as a part of your sprint score but will be helpful for preparing you for your endorsement interview, and enhancing overall understanding.
