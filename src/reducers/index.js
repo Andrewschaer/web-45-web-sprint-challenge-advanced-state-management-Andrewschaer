@@ -1,4 +1,4 @@
-import { FETCH_START, FETCH_SUCCESS, FETCH_FAIL, ADD_SMURF, ADD_ERROR_MESSAGE } from '../actions/index'
+import { FETCH_START, FETCH_SUCCESS, FETCH_FAIL, ADD_SMURF, SET_ERROR } from '../actions/index'
 
 
 export const initialState = {
@@ -30,9 +30,10 @@ const reducer = (state = initialState, action)=>{
         case(ADD_SMURF):
             return({
                 ...state,
-                smurfData: [...state.smurfData, action.payload]
+                smurfData: [...state.smurfData, action.payload],
+                errorMessage: ''
             });
-        case(ADD_ERROR_MESSAGE):
+        case(SET_ERROR):
             return({
                 ...state,
                 errorMessage: action.payload
